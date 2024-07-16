@@ -11,7 +11,7 @@
 
 .reservation__title {
     margin-bottom: 80px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size:44px;
@@ -46,7 +46,7 @@
     margin-bottom: 32px;
     height: 60px;
     text-align: left;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -65,7 +65,7 @@
     margin-top: 8px;
     margin-bottom: 32px;
     text-align: left;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -81,7 +81,7 @@
 
 .form__lable {
     text-align: left;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -91,23 +91,20 @@
 }
 
 
-
-.form__input_checkbox {
+.form__checkbox {
     width: 20px;
     height: 20px;
     margin-right: 12px;
-    border-radius: 2px;
-    
-    
+    border-radius: 2px;        
 }
 
-.form__label_checkbox {
-    font-family: Inter;
+.form__label_type_checkbox {
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
     text-align: center;
     display: flex;
-    justify-content: center;
+    justify-content: center;    
 }

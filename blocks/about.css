@@ -15,13 +15,14 @@
 .about__title{
     
     max-width: 320px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 44px;
     line-height: 52px;
     color:#fff;
     z-index:1;
+    margin:0;
 }
 
 .about__content {
@@ -32,8 +33,8 @@
     position:relative;
 }
 
-.about__content-paragraph {
-    font-family: 'Noto Serif';
+.about__paragraph {
+    font-family: 'Noto Serif', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -74,14 +75,5 @@
 }
 
 .about__circle_animation_blurred{
-    width: 426px; 
-    height: 426px; 
-    border-radius: 50%; 
-    position: absolute;
-    top: -152px; 
-    left: -129px;    
-    background-color: #2f80ed; 
     animation: pulsate 1.3s ease-in-out infinite;
-    z-index: 0; 
-    opacity: 0.6;
 }

@@ -19,29 +19,35 @@
 }
 
 .footer__social-heading {
-    margin-bottom: 20px;
+    margin-top: 0;
+    margin-bottom: 20px;    
+    font-family: 'Inter',sans-serif;;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+
 }
 
 .footer__social-icon {
     width: 16px;
     height: 16px;
-    margin-bottom: 16px;
+    
 }
 
-.footer__social-icon:last-child {
-    margin-bottom: 0;
-}
 
 
 .footer__list {
     list-style-type: none;
     padding: 60px 80px;
+    margin:0;
     
 }
 
 .footer__list-item {
     margin-bottom: 16px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -62,6 +68,8 @@
     gap:10px;
     display: flex;
     align-items: center;
+    color:#fff;
+    text-decoration: none;
 }
 
 .footer__social-link:hover {
@@ -70,9 +78,10 @@
 
 
 .footer__copyright {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
+    margin:0;
 }

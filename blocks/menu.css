@@ -14,7 +14,7 @@
 
 .menu__title {
     margin:0 auto;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 44px;
@@ -27,7 +27,7 @@
 
 .menu__subtitle {
     margin:0 auto;
-    font-family: 'Noto Serif';
+    font-family: 'Noto Serif', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -44,44 +44,41 @@
     justify-content: center;
     flex-wrap: wrap;
     gap:100px;
-    padding: 0;
-    margin: 0;
+    padding: 0;    
     list-style: none;
 }
 
 
-.card {
+.menu__card {
     width: 540px;
     margin-bottom: 100px;
 }
 
 
-.card:last-child {
+.menu__card:last-child {
     margin-bottom: 0;
 }
 
-.card__title {
-    font-family: 'Inter';
+.menu__card-title {
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
     line-height: 30px;
-    
+    margin: 0;
 }
 
-.card__list {
+.menu__card-list {
     padding: 0;
     margin: 0;
     list-style: none;
-    margin-top: 32px;
-    
-
+    margin-top: 32px;   
 }
 
-.card__list-item {
+.menu__card-list__item {
     margin-bottom: 16px;
     display: flex;
-    font-family: 'Noto Serif';
+    font-family: 'Noto Serif', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -89,11 +86,9 @@
     
 }
 
-.card__list-item:last-child {
-    margin-bottom: 0;
-}
 
-.card__list-divider {
+
+.menu__card-list__divider {
     border-bottom: 1px solid black;
     flex-grow: 1;
 }
