@@ -19,6 +19,7 @@
   line-height: 52px;
   color: #fff;
   z-index: 1;
+  margin-top: 0;
   margin-bottom: 20px;
 }
 
@@ -39,6 +40,10 @@
   margin: 0 0 20px;
   word-spacing: normal;
   letter-spacing: normal;
+}
+
+.about__paragraph:last-child {
+  margin: 0;
 }
 
 @keyframes pulsate {

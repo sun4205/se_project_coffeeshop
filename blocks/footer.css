@@ -23,7 +23,7 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
-  text-align: right;
+  text-align: left;
 }
 
 .footer__social-icon {
@@ -58,9 +58,8 @@
   gap: 10px;
   display: flex;
   align-items: center;
-  color: #fff;
   text-decoration: none;
-  transition: opacity 0.5s ease;
+  transition: #fff 0.5s ease;
 }
 
 .footer__social-link:hover {

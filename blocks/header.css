@@ -18,6 +18,7 @@
 
 .header__span-accent {
   font-family: "Noto Serif", serif;
+  font-style: italic;
   font-size: 60px;
   line-height: 72px;
   color: #2f80ed;
@@ -55,7 +56,6 @@
 }
 
 .header__image {
-
   position: absolute;
   width: 646px;
   height: auto;
@@ -63,7 +63,6 @@
   top: 124px;
   right: 5px;
   z-index: 0;
-  
 }
 
 .header__footer {
@@ -73,12 +72,12 @@
   z-index: 1;
   position: relative;
   padding: 0;
-  align-items: flex-end;  
+  align-items: flex-end;
 }
 
 .header__paragraph {
   margin: 0;
-  font-family: "Noto Serif", serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;

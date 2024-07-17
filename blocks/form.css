@@ -1,6 +1,5 @@
 .form {
   max-width: 385px;
-  margin: 0 auto;
 }
 
 .form__fieldset {
@@ -49,10 +48,6 @@
   border-radius: 4px;
   border: 1px solid #838383;
   box-sizing: border-box;
-}
-
-.form__input:last-child {
-  margin-bottom: 32px;
 }
 
 .form__lable {
