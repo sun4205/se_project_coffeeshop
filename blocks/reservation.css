@@ -1,110 +1,19 @@
-
-
 .reservation {
-    background-color: #D9E7FF;
-    background-image: url(./../images/background_reservation.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 100px 0 120px;
-    margin: 0 auto;
+  background-color: #d9e7ff;
+  background-image: url(./../images/background_reservation.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0 120px;
+  margin: 0 auto;
 }
 
 .reservation__title {
-    margin-bottom: 80px;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size:44px;
-    line-height: 52px;
-    text-align: center;
-}
-
-
-.form {
-    max-width: 385px;
-    margin: 0 auto;
-}
-
-.form__fieldset {
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    margin: 0;
-    border: none;
-}
-
-.form__input {
-    display: block;
-    width: 100%;
-}
-
-.form__button {
-    width: 100%;
-    border-radius: 4px;
-    opacity: 1;
-    transition: opacity 0.5s ease;
-    margin-bottom: 32px;
-    height: 60px;
-    text-align: left;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #FFFFFf;
-    background-color: #2F80ED;
-    text-align: center;
-}
-
-.form__button:hover {
-    opacity: 0.7; 
-}
-
-.form__input {
-    height: 60px;    
-    margin-top: 8px;
-    margin-bottom: 32px;
-    text-align: left;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
-    color: #838383;
-    border-radius: 4px;
-
-}
-
-.form__input:last-child{
-    margin-bottom: 32px;
-}
-
-.form__lable {
-    text-align: left;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    
-   
-}
-
-
-.form__checkbox {
-    width: 20px;
-    height: 20px;
-    margin-right: 12px;
-    border-radius: 2px;        
-}
-
-.form__label_type_checkbox {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    text-align: center;
-    display: flex;
-    justify-content: center;    
+  margin-top: 0;
+  margin-bottom: 80px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  text-align: center;
 }
