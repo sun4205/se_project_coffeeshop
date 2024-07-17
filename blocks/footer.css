@@ -59,7 +59,8 @@
   display: flex;
   align-items: center;
   text-decoration: none;
-  transition: #fff 0.5s ease;
+  color: #fff;
+  transition: color 0.5s ease;
 }
 
 .footer__social-link:hover {
